@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ztr2tPicAmUXWfpKo/OoL5zD9iC6b/LVVdp2bzdVFDhJMvQP/u2UQuLpg3W8wlxh6LaqdgRxUCuqAuHmNKxY9Q==",
+  "dgSpecHash": "fluGwAQ33Xu9JDOXh7A7TcfBusQAedSi5SEi0CWj6yNYt/unUpPoVSeOZm/1E1yasYbj4RZIy8AdWDetWhFX8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Peterson\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Peterson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\Peterson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.9\\microsoft.data.sqlite.core.7.0.9.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
