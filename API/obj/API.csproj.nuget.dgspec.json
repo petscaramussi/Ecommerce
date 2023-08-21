@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj": {}
+    "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj": {
+    "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Peterson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\obj\\",
+        "outputPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Peterson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
+              "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
               },
-              "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
+    "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Peterson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Peterson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Peterson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Peterson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
+              "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
               }
             }
           }
