@@ -1,0 +1,20 @@
+<ng-container *ngIf="$any(bcService.breadcrumbs$ | async) as bcmbs">
+    <section [ngClass]="bcmbs[bcmbs.length-1].label !== 'Home' ? 'toShow' : 'toHide'"  class="py-5 mb-3">
+        <div class="container" *ngIf="bcmbs[bcmbs.length-1].label !== 'Home'">
+            <div class="row d-flex align-items-center">
+                <div class="col-9">
+                    <h1>{{bcmbs[bcmbs.length-1].label}}</h1>
+                </div>
+                <div class="col-3">
+                    <xng-breadcrumb>
+                        <ng-container *xngBreadcrumbItem="let breadcrumb">
+                            {{breadcrumb | titlecase}}
+                        </ng-container>
+                    </xng-breadcrumb>
+                </div>
+            </div>
+        </div>
+    </section>
+</ng-container>
+
+

@@ -22,9 +22,11 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.0",
     "ngx-bootstrap": "^8.0.0",
+    "ngx-spinner": "^14.0.0",
     "ngx-toastr": "^15.2.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "xng-breadcrumb": "^8.0.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
