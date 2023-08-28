@@ -1,3 +1,4 @@
+using System.Text.Json;
 using Core.Entities;
 using Core.Interface;
 using StackExchange.Redis;
@@ -12,19 +13,23 @@ namespace Infrastructure.Data
             _database = redis.GetDatabase();
         }
 
-        public Task<bool> DeleteBasketAsync(string basketId)
+        public async Task<bool> DeleteBasketAsync(string basketId)
         {
-            throw new NotImplementedException();
+            return await _database.KeyDeleteAsync(basketId);
         }
 
-        public Task<CustomerBasket> GetBasketAsync(string baskedId)
+        public async Task<CustomerBasket> GetBasketAsync(string basketId)
         {
-            throw new NotImplementedException();
+            var data = await _database.StringGetAsync(basketId);
+            return data.IsNullOrEmpty ? null : JsonSerializer.Deserialize<CustomerBasket>(data);
         }
 
-        public Task<CustomerBasket> UpdateBasketAsync(CustomerBasket basket)
+        public async Task<CustomerBasket> UpdateBasketAsync(CustomerBasket basket)
         {
-            throw new NotImplementedException();
+            var created = await _database.StringSetAsync(basket.Id, JsonSerializer.Serialize(basket), TimeSpan.FromDays(30));
+            if(!created) return null;
+            return await GetBasketAsync(basket.Id);
+
         }
     }
 }

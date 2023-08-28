@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCOV6c3NE9wFv6L92x0nDVVGLvfYIkVdHBzYPRxBzLRqFubk+H6O+W3a4J54NC2zmWfqpDWAHCbvPU+rqai6Yg==",
+  "dgSpecHash": "9qn+cr7vKaFfKa/gosm/p6/NjWmbFsMGjyOZAjleki0ZSqucLB2TAWCRqSj1IsXUf6q4rivlx4qqOQcM7OAH+A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Peterson\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Peterson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
