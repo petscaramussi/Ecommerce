@@ -2030,8 +2030,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
-              "projectPath": "c:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
+            "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Core\\Core.csproj"
             },
             "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Peterson\\Documents\\GitHub\\Ecommerce\\Infrastructure\\Infrastructure.csproj"
