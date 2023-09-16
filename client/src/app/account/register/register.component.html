@@ -1,0 +1,53 @@
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-3">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="text-center mb-4">
+                <h1 class="mb-3">Sign Up</h1>
+            </div>
+            <div class="form-floating mb-3">
+                <input
+                [ngClass]="registerForm.get('displayName')?.touched ? registerForm.get('displayName')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text"
+                formControlName="displayName"
+                class="form-control" id="floatingInput" placeholder="Email">
+                <label for="floatingInput">Display Name</label>
+                <div class="invalid-feedback">Please choose a valid Name</div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input
+                [ngClass]="registerForm.get('email')?.touched ? registerForm.get('email')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="email"
+                formControlName="email"
+                class="form-control" id="floatingInput" placeholder="Email">
+                <div *ngIf="registerForm.get('email')?.status === 'PENDING'" class="fa fa-spinner fa-spin loader"></div>
+                <label for="floatingInput">Email address</label>
+                <div *ngIf="registerForm.get('email')?.errors?.['required']" class="invalid-feedback">Please enter an e-mail</div>
+                <div *ngIf="registerForm.get('email')?.invalid" class="invalid-feedback">Please enter a valid e-mail</div>
+                <div *ngIf="registerForm.get('email')?.errors?.['emailExists']" class="invalid-feedback">Email address is taken</div>
+            </div>
+
+            <div class="form-floating">
+                <input
+                [ngClass]="registerForm.get('password')?.touched ? registerForm.get('password')?.invalid ? 'is-invalid' : 'is-valid' : null"
+                type="password"
+                formControlName="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password">
+                <label for="floatingPassword">Password</label>
+                <div class="invalid-feedback">Please choose a valid password</div> 
+            </div>
+
+            <ul class="text-danger list-unstyled">
+                <li *ngFor="let error of errors">
+                    {{error}}
+                </li>
+            </ul>
+
+            <div class="d-grid">
+                <button [disabled]="registerForm.invalid" class="btn btn-lg btn-primary mt-3" type="submit">Sign up</button>
+            </div>
+        </form>
+    </div>
+</div>
