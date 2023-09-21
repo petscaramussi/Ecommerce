@@ -5,7 +5,7 @@
             <app-checkout-address (messageEvent)="receiveMessage($event)" [checkoutForm]="checkoutForm" *ngIf="controller === 0"></app-checkout-address>
             <app-checkout-delivery (messageEvent)="receiveMessage($event)" [checkoutForm]="checkoutForm"  *ngIf="controller === 1"></app-checkout-delivery>
             <app-checkout-review (messageEvent)="receiveMessage($event)" *ngIf="controller === 2"></app-checkout-review>
-            <app-checkout-payments (messageEvent)="receiveMessage($event)" *ngIf="controller === 3"></app-checkout-payments>
+            <app-checkout-payments (messageEvent)="receiveMessage($event)" [checkoutForm]="checkoutForm" *ngIf="controller === 3"></app-checkout-payments>
             
         </div>
         <div class="col-4">

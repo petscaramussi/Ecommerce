@@ -8,17 +8,20 @@
     <div class="row" formGroupName="addressForm">
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="firstName" class="form-control" id="floatingInput"
-                    placeholder="Email">
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('firstName')?.touched ? checkoutForm.get('addressForm')?.get('firstName')?.invalid ? 'is-invalid' :  'is-valid' : null" 
+                type="text" formControlName="firstName" class="form-control" id="floatingInput"
+                    placeholder="FirstName">
                 <label for="floatingInput">First Name</label>
-                <div class="invalid-feedback">Please enter a name
-                </div>
+                <div class="invalid-feedback">Please enter a name</div>
             </div>
         </div>
 
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="lastName" class="form-control" id="floatingInput"
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('lastName')?.touched ? checkoutForm.get('addressForm')?.get('lastName')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text" formControlName="lastName" class="form-control" id="floatingInput"
                     placeholder="Email">
                 <label for="floatingInput">Last Name</label>
                 <div class="invalid-feedback">Please enter a name</div>
@@ -27,34 +30,42 @@
 
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="street" class="form-control" id="floatingInput" placeholder="Email">
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('street')?.touched ? checkoutForm.get('addressForm')?.get('street')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text" formControlName="street" class="form-control" id="floatingInput" placeholder="Email">
                 <label for="floatingInput">Street</label>
-                <div class="invalid-feedback">Please enter a name</div>
+                <div class="invalid-feedback">Please enter a street</div>
             </div>
         </div>
 
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="city" class="form-control" id="floatingInput" placeholder="Email">
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('city')?.touched ? checkoutForm.get('addressForm')?.get('city')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text" formControlName="city" class="form-control" id="floatingInput" placeholder="Email">
                 <label for="floatingInput">City</label>
-                <div class="invalid-feedback">Please enter a name</div>
+                <div class="invalid-feedback">Please enter a city</div>
             </div>
         </div>
 
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="state" class="form-control" id="floatingInput" placeholder="Email">
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('state')?.touched ? checkoutForm.get('addressForm')?.get('state')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text" formControlName="state" class="form-control" id="floatingInput" placeholder="Email">
                 <label for="floatingInput">State</label>
-                <div class="invalid-feedback">Please enter a name</div>
+                <div class="invalid-feedback">Please enter a state</div>
             </div>
         </div>
 
         <div class="form-group col-6">
             <div class="form-floating mb-3">
-                <input type="text" formControlName="zipCode" class="form-control" id="floatingInput"
+                <input
+                [ngClass]="checkoutForm.get('addressForm')?.get('zipCode')?.touched ? checkoutForm.get('addressForm')?.get('zipCode')?.invalid ? 'is-invalid' :  'is-valid' : null"
+                type="text" formControlName="zipCode" class="form-control" id="floatingInput"
                     placeholder="Email">
                 <label for="floatingInput">Zip Code</label>
-                <div class="invalid-feedback">Please enter a name</div>
+                <div class="invalid-feedback">Please enter a Zip Code</div>
             </div>
         </div>
         
