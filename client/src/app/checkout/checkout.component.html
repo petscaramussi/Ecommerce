@@ -1,7 +1,12 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-8">
-            <app-stepper></app-stepper>
+            <app-stepper (messageEvent)="receiveMessage($event)" [steps]="controller"></app-stepper>
+            <app-checkout-address (messageEvent)="receiveMessage($event)" [checkoutForm]="checkoutForm" *ngIf="controller === 0"></app-checkout-address>
+            <app-checkout-delivery (messageEvent)="receiveMessage($event)" [checkoutForm]="checkoutForm"  *ngIf="controller === 1"></app-checkout-delivery>
+            <app-checkout-review (messageEvent)="receiveMessage($event)" *ngIf="controller === 2"></app-checkout-review>
+            <app-checkout-payments (messageEvent)="receiveMessage($event)" *ngIf="controller === 3"></app-checkout-payments>
+            
         </div>
         <div class="col-4">
             <app-order-totals></app-order-totals>
